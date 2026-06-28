@@ -1,4 +1,3 @@
-# rag_chain.py
 from langchain_ollama import OllamaEmbeddings, OllamaLLM
 from langchain_chroma import Chroma
 from langchain_core.prompts import PromptTemplate
