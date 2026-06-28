@@ -1,7 +1,7 @@
 # Grid Decarbonisation Planning RAG
 
 A production-ready Retrieval Augmented Generation (RAG) system for electrical
-distribution utilities and Schneider Electric EcoStruxure Grid deployments.
+distribution utilities and  EcoStruxure Grid deployments.
 Enables grid planners and engineers to query regulatory documents, decarbonisation
 roadmaps, load forecasts, and EcoStruxure documentation in natural language —
 and generate structured planning reports and feeder-level recommendations.
@@ -111,7 +111,7 @@ grid-decarb-rag/
 |   |-- regulations/                 # CEA regulations, IEC standards, DISCOM rules
 |   |-- roadmaps/                    # Grid decarbonisation roadmaps
 |   |-- forecasts/                   # Solar and EV load forecast reports and CSVs
-|   |-- ecostuxure/                  # Schneider EcoStruxure Grid documentation
+|   |-- ecostuxure/                  # Company EcoStruxure Grid documentation
 |   |-- policies/                    # RDSS scheme, RPO targets, tariff orders
 |
 |-- chroma_db/                       # ChromaDB persistent vector store (auto created)
@@ -330,13 +330,13 @@ Supported file formats: PDF, TXT, DOCX, XLSX, XLS, CSV
 
 ## Domain Context
 
-This project is specifically designed for Schneider Electric's electrical
+This project is specifically designed for  electrical
 distribution and EcoStruxure Grid domain. It covers:
 
 - Indian regulatory framework: CEA, KERC, DISCOM, RDSS scheme
 - Renewable integration: Rooftop solar, EV charging, BESS
 - Grid standards: IEC 61850, IEC 61968, IEEE 519, EN 50160
-- Schneider products: EcoStruxure ADMS, PME, Asset Advisor, Easergy relays
+- Company products: EcoStruxure ADMS, PME, Asset Advisor, Easergy relays
 - Planning concepts: Feeder penetration limits, VVO, DERM, duck curve management
 
 ---
