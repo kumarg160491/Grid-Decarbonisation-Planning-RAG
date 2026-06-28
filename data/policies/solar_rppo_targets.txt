@@ -1,0 +1,70 @@
+RENEWABLE PURCHASE OBLIGATION (RPO) AND
+RENEWABLE ENERGY CERTIFICATE FRAMEWORK
+MINISTRY OF NEW AND RENEWABLE ENERGY - 2023
+
+1. RPO TARGETS FOR DISTRIBUTION LICENSEES
+
+1.1 Solar RPO Trajectory
+Year 2023-24: 8.0 percent of total energy consumption from solar
+Year 2024-25: 10.5 percent of total energy consumption from solar
+Year 2025-26: 13.0 percent of total energy consumption from solar
+Year 2026-27: 15.5 percent of total energy consumption from solar
+Year 2027-28: 18.0 percent of total energy consumption from solar
+Year 2028-29: 20.5 percent of total energy consumption from solar
+Year 2029-30: 23.0 percent of total energy consumption from solar
+
+1.2 Non-Solar RPO Trajectory
+Year 2023-24: 11.5 percent from non-solar renewables (wind, hydro, biomass)
+Year 2024-25: 13.5 percent from non-solar renewables
+Year 2025-26: 15.0 percent from non-solar renewables
+Year 2030-31: 21.0 percent from non-solar renewables
+
+1.3 Total RPO including Solar
+Year 2023-24: 19.5 percent total RPO
+Year 2029-30: 43.33 percent total RPO (alignment with 500 GW target)
+
+2. COMPLIANCE MECHANISM
+
+2.1 Renewable Energy Certificates (REC)
+- Solar REC floor price   : Rs 1,000 per MWh
+- Solar REC ceiling price : Rs 1,500 per MWh
+- Non-solar REC floor     : Rs 500 per MWh
+- Non-solar REC ceiling   : Rs 1,000 per MWh
+- REC validity period     : 1 year from issuance
+
+2.2 RPO Compliance Options for DISCOMs
+Option 1: Direct procurement via Power Purchase Agreement (PPA) with RE generators
+Option 2: Purchase of RECs from exchange (IEX or PXIL)
+Option 3: Captive rooftop solar generation counted toward solar RPO
+Option 4: Open access renewable procurement by large consumers (offset RPO obligation)
+
+2.3 Non-Compliance Penalty
+- Penalty for RPO shortfall: Rs 1,500 per MWh for solar
+- Penalty for non-solar shortfall: Rs 1,000 per MWh
+- Penalty collected by SERC and used for renewable energy promotion fund
+
+3. ROOFTOP SOLAR CONTRIBUTION TO RPO
+
+3.1 Counting Methodology
+- Net metered rooftop solar: 100 percent counted toward DISCOM solar RPO
+- Gross metered rooftop solar: Only exported energy counted toward RPO
+- Group captive rooftop: Counted toward consuming entity RPO obligation
+
+3.2 DISCOM Incentive for Rooftop Promotion
+DISCOMs achieving rooftop solar target of 10 percent of total connections:
+- Additional 0.5 percent incentive on RPO compliance calculation
+- Eligible for additional RDSS grant of Rs 50 crore per state DISCOM
+
+4. GREEN ENERGY OPEN ACCESS
+
+4.1 Eligibility
+- Open access for renewable energy: Consumers above 100 kW (reduced from 1 MW)
+- Banking of green energy: Permitted within state, monthly settlement
+- Cross subsidy surcharge: 50 percent waiver for RE open access consumers
+- Wheeling charges: As per SERC order, typically 10 to 15 percent of base tariff
+
+4.2 Green Tariff Options
+DISCOMs must offer green tariff options to consumers:
+- Green Standard: 100 percent renewable energy supply at 10 percent premium
+- Green Plus: 100 percent RE plus 1 REC per MWh at 15 percent premium
+- Carbon Neutral Package: RE plus offset certificates at 20 percent premium

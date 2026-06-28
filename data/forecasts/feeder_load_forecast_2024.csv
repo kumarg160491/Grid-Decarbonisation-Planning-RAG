@@ -1,0 +1,11 @@
+feeder_id,feeder_name,voltage_kv,peak_load_mw,solar_capacity_mw,solar_penetration_pct,ev_load_mw,transformer_rating_mva,upgrade_needed,upgrade_priority
+F-1,Whitefield Industrial,11,8.2,2.3,28,0.8,10,No,Low
+F-2,Koramangala Commercial,11,6.5,2.27,35,0.5,8,Yes,High
+F-3,Hebbal Residential,11,4.1,0.74,18,0.3,5,No,Low
+F-4,Electronic City IT,11,9.8,4.31,44,1.2,12,Yes,Critical
+F-5,Jayanagar Mixed,11,5.3,1.17,22,0.4,6.3,No,Medium
+F-6,Marathahalli Mixed,11,7.1,2.2,31,0.9,8,No,Medium
+F-7,Indiranagar Commercial,11,6.8,1.97,29,0.6,8,Yes,High
+F-8,HSR Layout Residential,11,4.9,0.74,15,0.7,6.3,No,Low
+F-9,Bannerghatta Industrial,11,11.2,1.68,15,0.2,12.5,No,Low
+F-10,Sarjapur IT Corridor,11,8.9,3.47,39,1.5,10,Yes,High

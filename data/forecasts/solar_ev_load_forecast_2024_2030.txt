@@ -1,0 +1,90 @@
+SOLAR AND EV LOAD FORECASTING REPORT
+KARNATAKA DISTRIBUTION ZONE - BESCOM
+PERIOD: 2024 TO 2030
+
+PREPARED BY: BESCOM PLANNING DEPARTMENT
+DATE: JANUARY 2024
+
+SECTION 1 - ROOFTOP SOLAR FORECAST
+
+1.1 Current Status (2023)
+- Installed rooftop solar capacity in BESCOM area: 1,842 MW
+- Number of net metered consumers: 1,24,000
+- Average system size: 14.8 kW
+- Annual energy generation: 2,650 MU
+
+1.2 Growth Forecast by Year
+Year 2024: 2,400 MW (projected addition 558 MW)
+Year 2025: 3,200 MW (projected addition 800 MW)
+Year 2026: 4,100 MW (projected addition 900 MW)
+Year 2027: 5,200 MW (projected addition 1,100 MW)
+Year 2028: 6,500 MW (projected addition 1,300 MW)
+Year 2029: 7,900 MW (projected addition 1,400 MW)
+Year 2030: 9,500 MW (projected addition 1,600 MW)
+
+1.3 Feeder Level Solar Penetration Forecast
+
+Feeder F-1 (Whitefield Industrial): Current 28 percent, 2026 target 42 percent
+Feeder F-2 (Koramangala Commercial): Current 35 percent, 2026 target 55 percent
+Feeder F-3 (Hebbal Residential): Current 18 percent, 2026 target 38 percent
+Feeder F-4 (Electronic City IT): Current 44 percent, 2026 target 65 percent
+Feeder F-5 (Jayanagar Mixed): Current 22 percent, 2026 target 40 percent
+Feeder F-6 (Marathahalli Mixed): Current 31 percent, 2026 target 48 percent
+Feeder F-7 (Indiranagar Commercial): Current 29 percent, 2026 target 47 percent
+Feeder F-8 (HSR Layout Residential): Current 15 percent, 2026 target 35 percent
+
+1.4 Voltage Rise Risk Feeders
+The following 11kV feeders are projected to exceed 40 percent DG penetration
+before 2026 and require urgent capacity study and possible upgrade:
+- Feeder F-2 Koramangala : Upgrade needed by Q2 2025
+- Feeder F-4 Electronic City : Upgrade needed by Q1 2025
+- Feeder F-7 Indiranagar : Upgrade needed by Q3 2025
+
+SECTION 2 - EV CHARGING LOAD FORECAST
+
+2.1 EV Registration Growth in Bangalore
+Year 2023: 45,000 EVs registered (cumulative 1,20,000)
+Year 2024: 72,000 EVs registered (cumulative 1,92,000)
+Year 2025: 1,10,000 EVs registered (cumulative 3,02,000)
+Year 2026: 1,60,000 EVs registered (cumulative 4,62,000)
+Year 2027: 2,20,000 EVs registered (cumulative 6,82,000)
+Year 2028: 2,90,000 EVs registered (cumulative 9,72,000)
+Year 2029: 3,60,000 EVs registered (cumulative 13,32,000)
+Year 2030: 4,20,000 EVs registered (cumulative 17,52,000)
+
+2.2 Peak EV Charging Demand Forecast (MW)
+Year 2024: 48 MW peak demand (evening 6PM to 10PM)
+Year 2025: 88 MW peak demand
+Year 2026: 152 MW peak demand
+Year 2027: 238 MW peak demand
+Year 2028: 355 MW peak demand
+Year 2029: 498 MW peak demand
+Year 2030: 672 MW peak demand
+
+2.3 Critical EV Charging Corridors
+Outer Ring Road (Marathahalli to Hebbal): 45 public charging points by 2025,
+estimated peak demand 8.5 MW, requires dedicated 11kV feeder.
+
+Electronic City IT Corridor: 60 workplace charging points by 2025,
+estimated peak demand 12 MW, requires substation augmentation.
+
+Whitefield IT Park Zone: 55 charging points by 2025,
+estimated peak demand 9.8 MW, transformer upgrade required.
+
+SECTION 3 - COMBINED IMPACT ANALYSIS
+
+3.1 Net Load Curve Impact
+Solar generation during 10AM to 3PM is expected to push net load to near zero
+or negative on high solar days by 2026 on commercial feeders.
+Duck curve phenomenon expected in BESCOM area from 2025 onwards.
+
+3.2 Morning EV Ramp Rate
+EV charging combined with morning commercial load will create a 35 percent
+steeper ramp rate between 7AM and 9AM by 2026.
+Flexible demand response programs must be operational before 2025.
+
+3.3 Storage Requirement
+To manage the duck curve and EV evening peak:
+- 800 MWh of grid scale BESS needed by 2026
+- 200 MWh of distribution level BESS at 11kV substations
+- 1,200 MWh of behind the meter storage by 2028

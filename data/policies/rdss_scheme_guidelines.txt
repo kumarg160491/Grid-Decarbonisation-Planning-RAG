@@ -1,0 +1,76 @@
+REVAMPED DISTRIBUTION SECTOR SCHEME (RDSS)
+MINISTRY OF POWER - IMPLEMENTATION GUIDELINES 2022
+
+1. SCHEME OVERVIEW
+
+1.1 Objective
+The Revamped Distribution Sector Scheme (RDSS) aims to improve the operational
+and financial health of DISCOMs by providing result linked financial assistance
+for infrastructure upgrades, smart metering, and system modernisation.
+
+1.2 Total Outlay
+- Central government grant component: Rs 97,631 crore
+- Loan component through PFC and REC: Rs 1,51,000 crore
+- State DISCOM contribution: 10 to 25 percent depending on state category
+
+2. ELIGIBLE WORKS
+
+2.1 Infrastructure Works
+- Separation of agricultural feeders from domestic feeders
+- Upgradation of rural 33kV and 11kV substations
+- Distribution transformer replacement with higher capacity units
+- Underground cabling in urban areas to reduce outage duration
+- High Voltage Distribution System (HVDS) implementation
+
+2.2 Smart Metering Works
+- Prepaid smart meters for all consumers including LT and HT
+- Advanced Metering Infrastructure (AMI) communication network
+- Data concentration units and meter data management system
+- Integration with billing and customer care systems
+
+2.3 IT and OT Infrastructure
+- SCADA and DMS for 33kV and above substations
+- Geographic Information System (GIS) for distribution network
+- Enterprise Resource Planning (ERP) integration
+- Cyber security infrastructure for OT networks
+
+3. RESULT LINKED DISBURSEMENT
+
+3.1 Baseline Metrics (Must achieve to unlock grants)
+- AT&C loss reduction of minimum 3 percent per year
+- Collection efficiency above 98 percent
+- Feeder level energy accounting operational
+- 100 percent billing based on metered consumption
+
+3.2 Performance Incentives
+- AT&C loss below 12 percent: Additional 2 percent grant on project cost
+- Collection efficiency above 99 percent: Additional 1 percent grant
+- 24x7 power supply achievement: Additional 3 percent grant
+
+4. SMART METER SPECIFICATIONS
+
+4.1 Mandatory Features
+- Bi-directional energy measurement (import and export)
+- Time of Use (ToU) measurement capability (minimum 8 time slots)
+- Power quality parameters: Voltage, current, frequency, power factor
+- Event logging: Tamper events, power failure, load limit
+- Communication: RF mesh or GPRS or NB-IoT (utility choice)
+- Accuracy class 1.0 for residential, 0.5S for commercial
+
+4.2 Data Communication Requirements
+- Meter reading push interval: 15 minutes to head end system
+- Command response time: Within 30 seconds for disconnect and reconnect
+- Data retention: Minimum 60 days of interval data in meter
+
+5. DISCOM ELIGIBILITY AND CONDITIONS
+
+5.1 Financial Health Conditions
+- DISCOM must have approved tariff order for current year
+- Outstanding regulatory assets must have approved recovery plan
+- State government guarantee required for loan component
+- Quarterly performance reporting to Ministry of Power mandatory
+
+5.2 Technology Partner Selection
+- Open competitive bidding for all procurements above Rs 10 crore
+- Make in India preference: Minimum 50 percent local content for smart meters
+- Interoperability requirement: Open standards for AMI and SCADA systems

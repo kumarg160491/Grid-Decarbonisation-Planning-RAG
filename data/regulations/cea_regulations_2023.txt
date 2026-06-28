@@ -1,0 +1,92 @@
+CENTRAL ELECTRICITY AUTHORITY (CEA)
+TECHNICAL STANDARDS FOR CONNECTIVITY OF DISTRIBUTED GENERATION RESOURCES
+REGULATIONS 2023
+
+CHAPTER 1 - GENERAL PROVISIONS
+
+1.1 Short Title
+These regulations shall be called the CEA (Technical Standards for Connectivity
+of Distributed Generation Resources) Regulations, 2023.
+
+1.2 Applicability
+These regulations apply to all distributed generation resources including
+rooftop solar, ground mount solar, wind energy, and battery energy storage
+systems connected to the distribution network at voltage levels up to 33kV.
+
+1.3 Definitions
+- Distributed Generation (DG): Power generation facilities connected directly
+  to the distribution network with capacity up to 10 MW.
+- Point of Common Coupling (PCC): The point where the DG resource connects
+  to the utility distribution network.
+- Anti-islanding Protection: Protection mechanism to prevent DG from
+  energising a de-energised section of the utility network.
+
+CHAPTER 2 - CONNECTIVITY REQUIREMENTS
+
+2.1 Voltage Level Connectivity
+- Up to 10 kW        : 415V LT single phase or three phase
+- 10 kW to 100 kW    : 415V LT three phase
+- 100 kW to 2 MW     : 11kV HT connection
+- 2 MW to 10 MW      : 33kV HT connection
+
+2.2 Power Quality Requirements
+- Voltage regulation  : Plus or minus 6 percent of nominal voltage at PCC
+- Frequency range     : 47.5 Hz to 51.5 Hz for continuous operation
+- Power factor        : Minimum 0.85 lagging to 0.90 leading at PCC
+- Total Harmonic Distortion (THD): Maximum 5 percent at PCC
+- DC injection        : Maximum 0.5 percent of rated output current
+
+2.3 Protection Requirements
+All DG resources must install the following protection:
+- Over voltage protection    : Disconnect at 110 percent of nominal voltage
+- Under voltage protection   : Disconnect at 85 percent of nominal voltage
+- Over frequency protection  : Disconnect above 51.5 Hz
+- Under frequency protection : Disconnect below 47.5 Hz
+- Anti-islanding protection  : Mandatory for all DG resources
+- Earth fault protection     : Mandatory for HT connected DG
+
+CHAPTER 3 - ROOFTOP SOLAR SPECIFIC REQUIREMENTS
+
+3.1 Net Metering Eligibility
+- Residential consumers    : Up to 10 kW
+- Commercial consumers     : Up to 500 kW
+- Industrial consumers     : Up to 1 MW
+- Group net metering       : Up to 2 MW for housing societies
+
+3.2 Feeder Capacity Limits
+- Maximum DG penetration on any 11kV feeder: 40 percent of peak load
+- Maximum DG penetration on 415V LT network: 50 percent of transformer rating
+- If DG exceeds 40 percent penetration, detailed load flow study mandatory
+
+3.3 Interconnection Study Requirements
+DG capacity above 500 kW on a single feeder requires:
+- Short circuit level study
+- Voltage rise assessment
+- Protection coordination study
+- Power quality impact assessment
+
+CHAPTER 4 - EV CHARGING INFRASTRUCTURE
+
+4.1 EV Charging Load Classification
+- Level 1 AC charging  : Up to 3.3 kW, 415V single phase
+- Level 2 AC charging  : 3.3 kW to 22 kW, 415V three phase
+- Level 3 DC fast charging : 22 kW to 150 kW, 11kV or 415V
+- Ultra-fast DC charging : Above 150 kW, dedicated 11kV feeder required
+
+4.2 Grid Impact Assessment for EV
+- EV charging load above 100 kW on LT network requires transformer upgrade study
+- EV charging load above 500 kW on 11kV feeder requires power flow study
+- Harmonic filter mandatory for DC fast chargers above 50 kW
+
+CHAPTER 5 - METERING AND MONITORING
+
+5.1 Smart Meter Requirements
+- All DG resources above 10 kW must install bi-directional smart meters
+- Net energy metering accuracy class: 0.5S
+- Data logging interval: 15 minutes
+- Remote communication: DLMS/COSEM protocol mandatory
+
+5.2 SCADA Integration
+- DG resources above 1 MW must provide SCADA connectivity to DISCOM
+- Real time data: Active power, reactive power, voltage, frequency
+- Control capability: Remote on/off, power ramp rate control

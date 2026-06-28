@@ -1,0 +1,96 @@
+INDIA GRID DECARBONISATION ROADMAP 2023 TO 2030
+MINISTRY OF POWER - NATIONAL ELECTRICITY PLAN
+
+EXECUTIVE SUMMARY
+
+India targets 500 GW of non-fossil fuel based electricity capacity by 2030
+as part of its NDC commitments under the Paris Agreement. The distribution
+network must be fundamentally transformed to absorb this unprecedented scale
+of renewable energy integration.
+
+SECTION 1 - CURRENT GRID STATUS (2023)
+
+1.1 Generation Mix
+- Coal                     : 52 percent of installed capacity
+- Renewable (Solar + Wind) : 31 percent of installed capacity
+- Hydro                    : 11 percent of installed capacity
+- Nuclear + Gas + Other    : 6 percent of installed capacity
+
+1.2 Distribution Network Challenges
+- Aggregate Technical and Commercial (AT&C) losses: National average 17.1 percent
+- Distribution transformer failure rate: 8 percent annually
+- Average power outage duration: 4.2 hours per day in rural areas
+- Smart meter penetration: 12 percent of total connections
+
+SECTION 2 - TARGETS 2030
+
+2.1 Renewable Capacity Targets
+- Solar (utility scale)  : 280 GW
+- Solar (rooftop)        : 40 GW
+- Wind (onshore)         : 140 GW
+- Wind (offshore)        : 30 GW
+- Hydro and pumped storage: 62 GW
+- Battery Energy Storage : 50 GWh
+
+2.2 EV Penetration Targets
+- Two wheelers EV share  : 40 percent of new sales
+- Four wheelers EV share : 30 percent of new sales
+- Public charging stations: 2.9 million by 2030
+- Estimated EV charging demand: 90 GW peak by 2030
+
+2.3 Smart Grid Targets
+- Smart meters           : 250 million by 2025
+- Advanced Metering Infrastructure: 100 percent coverage by 2027
+- Automated Distribution Management: 50 percent of substations by 2028
+- SCADA coverage         : 100 percent of 33kV and above by 2026
+
+SECTION 3 - DISTRIBUTION NETWORK UPGRADE REQUIREMENTS
+
+3.1 Transformer Upgrades
+- Estimated 2.5 lakh distribution transformers to be replaced or upgraded
+- New transformers must be solar and EV ready (higher kVA rating)
+- Smart transformers with monitoring capability preferred
+- Target: Reduce DT failure rate to below 3 percent by 2030
+
+3.2 Feeder Separation
+- 1.5 lakh km of agricultural feeder separation required
+- Dedicated solar feeders in high DG penetration areas
+- Cost estimate: Rs 2.8 lakh crore for feeder infrastructure
+
+3.3 Substation Augmentation
+- 33/11kV substation capacity addition: 450 GVA by 2030
+- New substations with digital protection and control
+- GIS substations preferred in urban areas
+- EcoStruxure Grid compatible control systems
+
+SECTION 4 - TECHNOLOGY ROADMAP
+
+4.1 Advanced Distribution Management System (ADMS)
+Phase 1 (2023-2025): Deploy ADMS in all state capital cities
+Phase 2 (2025-2027): Extend to all district headquarters
+Phase 3 (2027-2030): Full national coverage
+
+4.2 Energy Storage Deployment
+- Grid scale BESS at 33kV substations: 10 GWh by 2026
+- Distribution level BESS at 11kV: 15 GWh by 2028
+- Behind the meter storage: 25 GWh by 2030
+
+4.3 Demand Response Programs
+- Time of Use (ToU) tariffs: Mandatory for consumers above 100 kW by 2025
+- Direct load control programs for agricultural feeders
+- Virtual Power Plant aggregation: 10 GW capacity by 2030
+
+SECTION 5 - INVESTMENT REQUIREMENTS
+
+5.1 Total Investment
+- Generation               : Rs 12 lakh crore
+- Transmission             : Rs 2.4 lakh crore
+- Distribution (T&D)       : Rs 3.1 lakh crore
+- Smart grid technologies  : Rs 1.5 lakh crore
+- EV charging infrastructure: Rs 0.8 lakh crore
+- Total                    : Rs 19.8 lakh crore (approximately USD 240 billion)
+
+5.2 Funding Sources
+- Central government grants: 30 percent via RDSS scheme
+- State DISCOM borrowings  : 40 percent
+- Private sector investment: 30 percent via PPP models

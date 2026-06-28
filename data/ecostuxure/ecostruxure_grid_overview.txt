@@ -1,0 +1,100 @@
+SCHNEIDER ELECTRIC ECOSTRUXURE GRID
+PRODUCT AND SOLUTION OVERVIEW FOR DISTRIBUTION UTILITIES
+VERSION 2024
+
+SECTION 1 - ECOSTRUXURE GRID PLATFORM OVERVIEW
+
+1.1 Platform Architecture
+EcoStruxure Grid is Schneider Electric's IoT enabled, open and interoperable
+architecture and platform for electrical distribution utilities. The platform
+spans three layers:
+- Connected Products    : Smart sensors, meters, protection relays, switchgear
+- Edge Control         : Substation automation, feeder automation, DMS
+- Apps, Analytics and Services: ADMS, AMI analytics, asset health management
+
+1.2 Core Software Components
+- EcoStruxure Power Monitoring Expert (PME): Power quality and energy management
+- EcoStruxure Advanced Distribution Management System (ADMS): Grid operations
+- EcoStruxure Grid Asset Advisor: Predictive asset health monitoring
+- EcoStruxure Microgrid Advisor: Microgrid energy optimisation
+- EcoStruxure Energy Hub: Prosumer energy management and flexibility
+
+SECTION 2 - ADMS CAPABILITIES FOR RENEWABLE INTEGRATION
+
+2.1 Distributed Energy Resource Management (DERM)
+EcoStruxure ADMS includes a native DERM module that provides:
+- Real time visibility of all DG resources on the distribution network
+- Forecasting engine for solar and wind generation (15 minute resolution)
+- Optimal dispatch of flexible resources to manage voltage and congestion
+- VVC (Volt VAR Control) with DG reactive power control capability
+- Automated restoration considering DG availability post fault
+
+2.2 Volt VAR Optimisation (VVO)
+The VVO module in ADMS continuously optimises voltage profiles by:
+- Coordinating capacitor banks, LTC transformers, and SVR settings
+- Using DG inverter reactive power as a control resource
+- Targeting voltage within plus or minus 3 percent of nominal
+- Reducing distribution losses by 2 to 5 percent typically
+
+2.3 Outage Management System (OMS) with DG Awareness
+- Islanding detection and management for DG equipped feeders
+- Safe restoration sequences considering DG status
+- Crew dispatch considering DG work permits
+- Customer notification with DG impact consideration
+
+SECTION 3 - FEEDER AUTOMATION FOR HIGH DG PENETRATION
+
+3.1 Recloser and Sectionaliser Automation
+For feeders with DG penetration above 30 percent:
+- Directional overcurrent protection required (bidirectional power flow)
+- Recloser dead time adjustment to allow DG to trip before reclose
+- Recloser settings: Recommended minimum 2 second dead time with DG
+- Feeder automation with SCADA connectivity to ADMS
+
+3.2 Recommended Schneider Electric Products for High DG Feeders
+- PRA200 Recloser Controller: Directional protection, IEC 61850 native
+- Easergy P3 Protection Relay: Advanced directional overcurrent and earth fault
+- Easergy T300 RTU: IEC 61850 and DNP3 communication for feeder automation
+- PowerLogic ION9000: Revenue grade metering at DG PCC
+
+3.3 Feeder F-7 Indiranagar Upgrade Recommendation
+Based on the BESCOM solar forecast showing Feeder F-7 reaching 47 percent
+DG penetration by 2026, the following upgrades are recommended:
+- Replace existing overcurrent relay with Easergy P3 directional protection
+- Install PRA200 recloser at mid-feeder point for sectionalisation
+- Add PowerLogic ION9000 meter at substation feeder head
+- Integrate with ADMS for real time monitoring and VVO
+- Estimated upgrade cost: Rs 28 lakh per feeder (excluding civil works)
+- Estimated timeline: 3 to 4 months per feeder
+
+SECTION 4 - ECOSTRUXURE GRID ASSET ADVISOR
+
+4.1 Distribution Transformer Health Monitoring
+Asset Advisor connects to smart sensors on distribution transformers to provide:
+- Real time temperature monitoring (winding and oil temperature)
+- Load current monitoring and overload prediction
+- Dissolved gas analysis (DGA) trend monitoring via external sensors
+- Remaining useful life estimation based on thermal ageing model
+- Maintenance work order generation integrated with CMMS
+
+4.2 Supported IoT Sensors for Distribution Assets
+- EcoStruxure Transformer Expert: Vibration, temperature, partial discharge
+- PowerLogic PM5000 series: Energy and power quality at substation level
+- Easergy P3 relay: Protection event logging and fault recording
+- SM6 Ring Main Unit with Smart Module: LV and MV switching status
+
+SECTION 5 - MICROGRID AND PROSUMER SOLUTIONS
+
+5.1 EcoStruxure Microgrid Advisor
+For areas with high DG penetration requiring islanded operation:
+- Energy management across solar, storage, and load
+- Seamless transition between grid connected and island mode
+- Optimise self consumption and minimise grid export
+- Supports VPP aggregation for demand response programs
+
+5.2 EcoStruxure Energy Hub
+For DISCOM prosumer programs:
+- Individual prosumer portal for energy monitoring and billing
+- Aggregated flexibility from residential solar and storage
+- API integration with DISCOM billing and ADMS systems
+- Support for net metering, gross metering, and peer to peer trading
