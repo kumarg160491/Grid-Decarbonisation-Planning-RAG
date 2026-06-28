@@ -17,7 +17,7 @@ CATEGORY_DIR_MAP = {
     "regulations": cfg.data.regulations_dir,
     "roadmaps"   : cfg.data.roadmaps_dir,
     "forecasts"  : cfg.data.forecasts_dir,
-    "ecostuxure" : cfg.data.ecostuxure_dir,
+    "ecostuxure" : cfg.data.grid_platform_dir,
     "policies"   : cfg.data.policies_dir,
 }
 

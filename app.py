@@ -31,17 +31,17 @@ def get_health():
 
 # -- Sidebar ------------------------------------------------------------------
 with st.sidebar:
-    st.header("System Status")
-    health = get_health()
-    if health:
-        st.success(f"API Running")
-        st.success(f"Ollama: {health.get('ollama')}")
-        st.success(f"ChromaDB: {health.get('chromadb')}")
-        st.info(f"Total Chunks: {health.get('total_chunks', 0)}")
-    else:
-        st.error("API not reachable. Run: uv run python api.py")
+    # st.header("System Status")
+    # health = get_health()
+    # if health:
+    #     st.success(f"API Running")
+    #     st.success(f"Ollama: {health.get('ollama')}")
+    #     st.success(f"ChromaDB: {health.get('chromadb')}")
+    #     st.info(f"Total Chunks: {health.get('total_chunks', 0)}")
+    # else:
+    #     st.error("API not reachable. Run: uv run python api.py")
 
-    st.divider()
+    # st.divider()
     st.header("Upload Document")
 
     category = st.selectbox(
@@ -81,15 +81,15 @@ with st.sidebar:
     )
 
     st.divider()
-    st.markdown("**Knowledge Base**")
-    try:
-        docs = requests.get(f"{API_BASE}/api/documents").json()
-        for cat, count in docs.get("category_counts", {}).items():
-            st.markdown(f"- {cat}: `{count}` chunks")
-    except Exception:
-        st.caption("Could not load document stats.")
+    # st.markdown("**Knowledge Base**")
+    # try:
+    #     docs = requests.get(f"{API_BASE}/api/documents").json()
+    #     for cat, count in docs.get("category_counts", {}).items():
+    #         st.markdown(f"- {cat}: `{count}` chunks")
+    # except Exception:
+    #     st.caption("Could not load document stats.")
 
-    st.divider()
+    # st.divider()
     st.caption("Grid Decarbonisation RAG | Kumar Gaurav")
 
 

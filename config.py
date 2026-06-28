@@ -27,7 +27,7 @@ class DataConfig:
     regulations_dir: str = "data/regulations"
     roadmaps_dir   : str = "data/roadmaps"
     forecasts_dir  : str = "data/forecasts"
-    ecostuxure_dir : str = "data/ecostuxure"
+    grid_platform_dir: str = "data/grid_platform"
     policies_dir   : str = "data/policies"
     chunk_size     : int = 600
     chunk_overlap  : int = 100
