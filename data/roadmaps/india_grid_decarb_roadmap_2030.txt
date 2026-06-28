@@ -61,7 +61,7 @@ SECTION 3 - DISTRIBUTION NETWORK UPGRADE REQUIREMENTS
 - 33/11kV substation capacity addition: 450 GVA by 2030
 - New substations with digital protection and control
 - GIS substations preferred in urban areas
-- EcoStruxure Grid compatible control systems
+- STRUXURE Grid compatible control systems
 
 SECTION 4 - TECHNOLOGY ROADMAP
 

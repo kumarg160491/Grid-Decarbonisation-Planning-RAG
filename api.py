@@ -162,7 +162,7 @@ def feeder_recommendations(request: FeederRequest):
         f"New capacity addition: {request.capacity_kw} kW. "
         f"Voltage level: {request.voltage_level}. "
         f"Analyse this feeder for decarbonisation upgrade requirements, "
-        f"voltage violations, protection changes, and EcoStruxure integration."
+        f"voltage violations, protection changes, and STRUXURE integration."
     )
     result = run_feeder(question, request.category_filter)
     return {

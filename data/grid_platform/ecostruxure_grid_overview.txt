@@ -1,11 +1,11 @@
-SCHNEIDER ELECTRIC ECOSTRUXURE GRID
+Company STRUXURE GRID
 PRODUCT AND SOLUTION OVERVIEW FOR DISTRIBUTION UTILITIES
 VERSION 2024
 
-SECTION 1 - ECOSTRUXURE GRID PLATFORM OVERVIEW
+SECTION 1 - STRUXURE GRID PLATFORM OVERVIEW
 
 1.1 Platform Architecture
-EcoStruxure Grid is Schneider Electric's IoT enabled, open and interoperable
+STRUXURE Grid is Company's IoT enabled, open and interoperable
 architecture and platform for electrical distribution utilities. The platform
 spans three layers:
 - Connected Products    : Smart sensors, meters, protection relays, switchgear
@@ -13,16 +13,16 @@ spans three layers:
 - Apps, Analytics and Services: ADMS, AMI analytics, asset health management
 
 1.2 Core Software Components
-- EcoStruxure Power Monitoring Expert (PME): Power quality and energy management
-- EcoStruxure Advanced Distribution Management System (ADMS): Grid operations
-- EcoStruxure Grid Asset Advisor: Predictive asset health monitoring
-- EcoStruxure Microgrid Advisor: Microgrid energy optimisation
-- EcoStruxure Energy Hub: Prosumer energy management and flexibility
+- STRUXURE Power Monitoring Expert (PME): Power quality and energy management
+- STRUXURE Advanced Distribution Management System (ADMS): Grid operations
+- STRUXURE Grid Asset Advisor: Predictive asset health monitoring
+- STRUXURE Microgrid Advisor: Microgrid energy optimisation
+- STRUXURE Energy Hub: Prosumer energy management and flexibility
 
 SECTION 2 - ADMS CAPABILITIES FOR RENEWABLE INTEGRATION
 
 2.1 Distributed Energy Resource Management (DERM)
-EcoStruxure ADMS includes a native DERM module that provides:
+STRUXURE ADMS includes a native DERM module that provides:
 - Real time visibility of all DG resources on the distribution network
 - Forecasting engine for solar and wind generation (15 minute resolution)
 - Optimal dispatch of flexible resources to manage voltage and congestion
@@ -51,7 +51,7 @@ For feeders with DG penetration above 30 percent:
 - Recloser settings: Recommended minimum 2 second dead time with DG
 - Feeder automation with SCADA connectivity to ADMS
 
-3.2 Recommended Schneider Electric Products for High DG Feeders
+3.2 Recommended Company Products for High DG Feeders
 - PRA200 Recloser Controller: Directional protection, IEC 61850 native
 - Easergy P3 Protection Relay: Advanced directional overcurrent and earth fault
 - Easergy T300 RTU: IEC 61850 and DNP3 communication for feeder automation
@@ -67,7 +67,7 @@ DG penetration by 2026, the following upgrades are recommended:
 - Estimated upgrade cost: Rs 28 lakh per feeder (excluding civil works)
 - Estimated timeline: 3 to 4 months per feeder
 
-SECTION 4 - ECOSTRUXURE GRID ASSET ADVISOR
+SECTION 4 - STRUXURE GRID ASSET ADVISOR
 
 4.1 Distribution Transformer Health Monitoring
 Asset Advisor connects to smart sensors on distribution transformers to provide:
@@ -78,21 +78,21 @@ Asset Advisor connects to smart sensors on distribution transformers to provide:
 - Maintenance work order generation integrated with CMMS
 
 4.2 Supported IoT Sensors for Distribution Assets
-- EcoStruxure Transformer Expert: Vibration, temperature, partial discharge
+- STRUXURE Transformer Expert: Vibration, temperature, partial discharge
 - PowerLogic PM5000 series: Energy and power quality at substation level
 - Easergy P3 relay: Protection event logging and fault recording
 - SM6 Ring Main Unit with Smart Module: LV and MV switching status
 
 SECTION 5 - MICROGRID AND PROSUMER SOLUTIONS
 
-5.1 EcoStruxure Microgrid Advisor
+5.1 STRUXURE Microgrid Advisor
 For areas with high DG penetration requiring islanded operation:
 - Energy management across solar, storage, and load
 - Seamless transition between grid connected and island mode
 - Optimise self consumption and minimise grid export
 - Supports VPP aggregation for demand response programs
 
-5.2 EcoStruxure Energy Hub
+5.2 STRUXURE Energy Hub
 For DISCOM prosumer programs:
 - Individual prosumer portal for energy monitoring and billing
 - Aggregated flexibility from residential solar and storage

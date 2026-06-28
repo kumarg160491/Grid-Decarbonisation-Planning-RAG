@@ -104,7 +104,7 @@ tab1, tab2, tab3 = st.tabs([
 # -- Tab 1: QnA ---------------------------------------------------------------
 with tab1:
     st.subheader("Ask a Question")
-    st.caption("Ask anything from regulations, roadmaps, forecasts, or EcoStruxure docs.")
+    st.caption("Ask anything from regulations, roadmaps, forecasts, or STRUXURE docs.")
 
     col1, col2 = st.columns([1, 1])
 
@@ -113,13 +113,13 @@ with tab1:
         q1 = st.button("CEA rooftop solar interconnection regulation")
         q2 = st.button("EV charging impact on distribution transformer")
         q3 = st.button("DISCOM net metering policy for commercial consumers")
-        q4 = st.button("EcoStruxure Grid ADMS capabilities")
+        q4 = st.button("STRUXURE Grid ADMS capabilities")
 
         default_q = ""
         if q1: default_q = "What are the CEA regulations for rooftop solar interconnection at 11kV feeder level?"
         elif q2: default_q = "What is the impact of EV charging load on distribution transformers and what upgrades are needed?"
         elif q3: default_q = "What is the DISCOM net metering policy for commercial consumers above 100 kW?"
-        elif q4: default_q = "What are the capabilities of EcoStruxure Grid ADMS for renewable integration?"
+        elif q4: default_q = "What are the capabilities of STRUXURE Grid ADMS for renewable integration?"
 
         question = st.text_area(
             "Your question:",
@@ -188,7 +188,7 @@ with tab2:
                 f"Planned addition: {capacity_kw} kW of {energy_type} at {voltage_level} level. "
                 f"Additional context: {extra_context if extra_context else 'None provided'}. "
                 f"Include voltage impact, regulatory compliance, upgrade recommendations, "
-                f"and EcoStruxure integration opportunities."
+                f"and STRUXURE integration opportunities."
             )
             with st.spinner("Generating planning report..."):
                 resp = requests.post(

@@ -10,7 +10,7 @@ from config import cfg
 
 QNA_PROMPT = """
 You are an expert grid decarbonisation planning assistant for electrical
-distribution utilities and Schneider Electric EcoStruxure Grid deployments.
+distribution utilities and Company STRUXURE Grid deployments.
 
 Use ONLY the context below to answer the question.
 If the answer is not in the context, say:
@@ -48,7 +48,7 @@ Generate a structured planning report with the following sections:
 4. Voltage and Power Quality Impact
 5. Regulatory Compliance (CEA / DISCOM / IEC standards)
 6. Recommended Grid Upgrades
-7. EcoStruxure Integration Opportunities
+7. STRUXURE Integration Opportunities
 8. Estimated Timeline and Phasing
 9. Risk Assessment
 10. Next Steps and Action Items
@@ -58,7 +58,7 @@ Be specific, technical, and cite relevant standards where applicable.
 
 FEEDER_PROMPT = """
 You are a distribution network planning specialist with expertise in
-Schneider Electric EcoStruxure Grid and Indian DISCOM operations.
+Company STRUXURE Grid and Indian DISCOM operations.
 
 Use ONLY the context below to provide feeder-level recommendations.
 If the answer is not in the context, say:
@@ -77,7 +77,7 @@ Provide structured feeder-level recommendations:
 - Protection Relay Changes : (required settings or relay upgrades)
 - Reactive Power Compensation : (capacitor bank sizing or STATCOM)
 - Smart Metering Upgrade   : (Yes / No / Type recommended)
-- EcoStruxure Integration  : (relevant modules - PME, ADMS, Grid Edge)
+- STRUXURE Integration  : (relevant modules - PME, ADMS, Grid Edge)
 - Regulatory Compliance    : (CEA / DISCOM requirements to meet)
 - Recommended Timeline     : (immediate / 3 months / 6 months / 1 year)
 - Estimated Cost Range     : (based on retrieved data if available)

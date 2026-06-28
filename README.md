@@ -1,9 +1,9 @@
 # Grid Decarbonisation Planning RAG
 
 A production-ready Retrieval Augmented Generation (RAG) system for electrical
-distribution utilities and  EcoStruxure Grid deployments.
+distribution utilities and  STRUXURE Grid deployments.
 Enables grid planners and engineers to query regulatory documents, decarbonisation
-roadmaps, load forecasts, and EcoStruxure documentation in natural language —
+roadmaps, load forecasts, and STRUXURE documentation in natural language —
 and generate structured planning reports and feeder-level recommendations.
 
 Everything runs 100% locally. No cloud API. No data leaves the system.
@@ -48,7 +48,7 @@ provides three intelligent output modes:
 ```
 INPUT DOCUMENTS
 PDF / TXT / DOCX / XLSX / CSV
-(Regulations, Roadmaps, Forecasts, EcoStruxure Docs, Policies)
+(Regulations, Roadmaps, Forecasts, STRUXURE Docs, Policies)
           |
           v
    FASTAPI INGESTION API
@@ -111,7 +111,7 @@ grid-decarb-rag/
 |   |-- regulations/                 # CEA regulations, IEC standards, DISCOM rules
 |   |-- roadmaps/                    # Grid decarbonisation roadmaps
 |   |-- forecasts/                   # Solar and EV load forecast reports and CSVs
-|   |-- ecostuxure/                  # Company EcoStruxure Grid documentation
+|   |-- ecostuxure/                  # Company STRUXURE Grid documentation
 |   |-- policies/                    # RDSS scheme, RPO targets, tariff orders
 |
 |-- chroma_db/                       # ChromaDB persistent vector store (auto created)
@@ -223,7 +223,7 @@ class APIConfig:
 | regulations  | CEA connectivity standards, IEC 61850, protection requirements        |
 | roadmaps     | India grid decarbonisation roadmap 2030, state level plans            |
 | forecasts    | Solar capacity forecasts, EV load projections, feeder level data      |
-| ecostuxure   | EcoStruxure Grid ADMS, PME, Asset Advisor, Microgrid Advisor docs     |
+| ecostuxure   | STRUXURE Grid ADMS, PME, Asset Advisor, Microgrid Advisor docs     |
 | policies     | RDSS scheme guidelines, RPO targets, net metering policies, DISCOM    |
 
 ---
@@ -253,13 +253,13 @@ Ask natural language questions grounded in the knowledge base.
 Sample questions:
 - What are the CEA regulations for rooftop solar interconnection at 11kV feeder level?
 - What is the maximum DG penetration allowed on a single 11kV feeder?
-- What does EcoStruxure ADMS DERM module do for renewable integration?
+- What does STRUXURE ADMS DERM module do for renewable integration?
 - What is the BESCOM net metering compensation rate for FY 2023-24?
 
 ### Mode 2 — Planning Report
 Generate a comprehensive 10-section planning report for a specific feeder
 and renewable integration project. Includes executive summary, voltage impact
-analysis, regulatory compliance checklist, upgrade recommendations, EcoStruxure
+analysis, regulatory compliance checklist, upgrade recommendations, STRUXURE
 integration opportunities, and estimated timeline.
 
 Sample input:
@@ -270,7 +270,7 @@ Sample input:
 ### Mode 3 — Feeder Recommendations
 Get structured recommendations per feeder covering upgrade priority, voltage
 violation risk, protection relay changes, reactive power compensation, smart
-metering upgrades, EcoStruxure integration, regulatory compliance, timeline,
+metering upgrades, STRUXURE integration, regulatory compliance, timeline,
 and estimated cost range.
 
 ---
@@ -284,11 +284,11 @@ references and source documents, and respond with structured fields.
 
 **Planning Report Prompt** — instructs LLM to generate a 10-section engineering
 report with executive summary, feasibility assessment, regulatory compliance,
-upgrade roadmap, EcoStruxure integration, and risk assessment.
+upgrade roadmap, STRUXURE integration, and risk assessment.
 
 **Feeder Recommendation Prompt** — instructs LLM to output structured feeder
 recommendations across 9 dimensions: upgrade priority, voltage risk, protection,
-reactive power, smart metering, EcoStruxure modules, regulations, timeline, cost.
+reactive power, smart metering, STRUXURE modules, regulations, timeline, cost.
 
 All prompts include a hallucination guardrail — if the answer is not in the
 retrieved context, the LLM responds with a specific not-found message rather
@@ -331,12 +331,12 @@ Supported file formats: PDF, TXT, DOCX, XLSX, XLS, CSV
 ## Domain Context
 
 This project is specifically designed for  electrical
-distribution and EcoStruxure Grid domain. It covers:
+distribution and STRUXURE Grid domain. It covers:
 
 - Indian regulatory framework: CEA, KERC, DISCOM, RDSS scheme
 - Renewable integration: Rooftop solar, EV charging, BESS
 - Grid standards: IEC 61850, IEC 61968, IEEE 519, EN 50160
-- Company products: EcoStruxure ADMS, PME, Asset Advisor, Easergy relays
+- Company products: STRUXURE ADMS, PME, Asset Advisor, Easergy relays
 - Planning concepts: Feeder penetration limits, VVO, DERM, duck curve management
 
 ---
